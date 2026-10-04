@@ -19,13 +19,14 @@ def create_users(names: List[str], surnames: List[str], departments: List[str], 
         current_id += 1
     return current_id
 
-m_names: List[str] = ['Adam', 'Aleksander', 'Antoni', 'Bartosz', 'Błażej', 'Bruno', 'Cezary', 'Damian', 'Daniel', 'Dawid', 'Dominik', 'Emil', 'Franciszek', 'Gabriel', 'Grzegorz', 'Igor', 'Jakub', 'Jan', 'Janusz', 'Jędrzej', 'Kacper', 'Karol', 'Konrad', 'Krzysztof', 'Leon', 'Maciej', 'Marcel', 'Marek', 'Mateusz', 'Michał', 'Mikołaj', 'Nikodem', 'Oskar', 'Patryk', 'Paweł', 'Piotr', 'Przemysław', 'Rafał', 'Robert', 'Szymon', 'Tadeusz', 'Tomasz', 'Wiktor', 'Witold', 'Wojciech', 'Xawery', 'Zbigniew', 'Zdzisław', 'Ziemowit', 'Łukasz']
+m_names: List[str] = ['James', 'John', 'Robert', 'Michael', 'William', 'David', 'Richard', 'Joseph', 'Thomas', 'Charles', 'Christopher', 'Daniel', 'Matthew', 'Anthony', 'Mark', 'Donald', 'Steven', 'Paul', 'Andrew', 'Joshua', 'Kenneth', 'Kevin', 'Brian', 'George', 'Edward', 'Ronald', 'Timothy', 'Jason', 'Jeffrey', 'Ryan']
 
-f_names: List[str] = ['Aleksandra', 'Alicja', 'Amelia', 'Anna', 'Antonina', 'Barbara', 'Beata', 'Blanka', 'Bożena', 'Celina', 'Dominika', 'Edyta', 'Eliza', 'Emilia', 'Gabriela', 'Hanna', 'Helena', 'Iga', 'Ilona', 'Izabela', 'Jagoda', 'Julia', 'Justyna', 'Kaja', 'Kamila', 'Karolina', 'Katarzyna', 'Kinga', 'Klara', 'Laura', 'Lena', 'Liliana', 'Liwia', 'Magdalena', 'Maria', 'Martyna', 'Maja', 'Milena', 'Natalia', 'Nina', 'Oliwia', 'Patrycja', 'Paulina', 'Renata', 'Roksana', 'Sara', 'Sylwia', 'Weronika', 'Wiktoria', 'Zofia']
+f_names: List[str] = ['Mary', 'Patricia', 'Linda', 'Barbara', 'Elizabeth', 'Jennifer', 'Maria', 'Susan', 'Margaret', 'Dorothy', 'Lisa', 'Nancy', 'Karen', 'Betty', 'Helen', 'Sandra', 'Donna', 'Carol', 'Ruth', 'Sharon', 'Michelle', 'Laura', 'Sarah', 'Kimberly', 'Deborah', 'Jessica']
 
-m_surnames: List[str] = ['Nowak', 'Kowalski', 'Wiśniewski', 'Wójcik', 'Kowalczyk', 'Kamiński', 'Lewandowski', 'Zieliński', 'Szymański', 'Woźniak', 'Dąbrowski', 'Kozłowski', 'Jankowski', 'Mazur', 'Wojciechowski', 'Kwiatkowski', 'Krawczyk', 'Kaczmarek', 'Piotrowski', 'Grabowski', 'Zając', 'Pawłowski', 'Michalski', 'Król', 'Wieczorek', 'Jabłoński', 'Wróbel', 'Nowicki', 'Majewski', 'Olszewski', 'Stępień', 'Jaworski', 'Malinowski', 'Adamczyk', 'Dudek', 'Górski', 'Pawlikowski', 'Witkowski', 'Rutkowski', 'Walczak', 'Sikora', 'Baran', 'Michalak', 'Szewczyk', 'Ostrowski', 'Tomaszewski', 'Pietrzak', 'Marciniak', 'Włodarczyk', 'Borkowski']
+english_surnames: List[str] = ['Smith', 'Johnson', 'Williams', 'Brown', 'Jones', 'Garcia', 'Miller', 'Davis', 'Rodriguez', 'Martinez', 'Hernandez', 'Lopez', 'Gonzalez', 'Wilson', 'Anderson', 'Thomas', 'Taylor', 'Moore', 'Jackson', 'Martin', 'Lee', 'Perez', 'Thompson', 'White', 'Harris', 'Sanchez', 'Clark', 'Ramirez', 'Lewis', 'Robinson', 'Walker', 'Young', 'Allen', 'King', 'Wright', 'Scott', 'Torres', 'Nguyen', 'Hill', 'Flores', 'Green', 'Adams', 'Nelson', 'Baker', 'Hall', 'Rivera', 'Campbell', 'Mitchell', 'Carter', 'Roberts']
 
-f_surnames: List[str] = ['Nowak', 'Kowalska', 'Wiśniewska', 'Wójcik', 'Kowalczyk', 'Kamińska', 'Lewandowska', 'Zielińska', 'Szymańska', 'Woźniak', 'Dąbrowska', 'Kozłowska', 'Jankowska', 'Mazur', 'Wojciechowska', 'Kwiatkowska', 'Krawczyk', 'Kaczmarek', 'Piotrowska', 'Grabowska', 'Zając', 'Pawłowska', 'Michalska', 'Król', 'Wieczorek', 'Jabłońska', 'Wróbel', 'Nowicka', 'Majewska', 'Olszewska', 'Stępień', 'Jaworska', 'Malinowska', 'Adamczyk', 'Dudek', 'Górska', 'Pawlikowska', 'Witkowska', 'Rutkowska', 'Walczak', 'Sikora', 'Baran', 'Michalak', 'Szewczyk', 'Ostrowska', 'Tomaszewska', 'Pietrzak', 'Marciniak', 'Włodarczyk', 'Borkowska']
+m_surnames: List[str] = english_surnames.copy()
+f_surnames: List[str] = english_surnames.copy()
 
 departments: List[str] = ['PR', 'HR', 'IT']
 
